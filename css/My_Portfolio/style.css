@@ -1,0 +1,43 @@
+body {
+  font-family: "Poppins", sans-serif;
+  line-height: 1.6;
+}
+
+.hero {
+  background: linear-gradient(135deg, #007bff, #6610f2);
+  color: white;
+}
+
+.card {
+  border: none;
+  border-radius: 1rem;
+}
+
+.card:hover {
+  transform: scale(1.02);
+  transition: 0.3s ease;
+}
+
+.navbar-brand {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+#typing-animation {
+  font-size: 1.2rem;
+  font-weight: bold;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 2px solid white;
+  width: 0;
+  animation: typing 4s steps(40, end) infinite alternate;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 24ch;
+  }
+}
